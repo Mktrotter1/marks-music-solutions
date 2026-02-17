@@ -1,0 +1,16 @@
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./data:/data
+      - ./web/dist:/app/web/dist:ro
+      # Mount your music library (change this path)
+      - D:/Music:/music:ro
+    environment:
+      - MMS_CONFIG=/app/config.yaml
+    restart: unless-stopped

@@ -1,0 +1,20 @@
+# Data directory (database, artwork cache, transcode cache)
+data/
+
+# Build outputs
+server/mms
+server/mms.exe
+web/dist/
+web/node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
