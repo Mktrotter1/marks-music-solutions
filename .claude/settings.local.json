@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth status:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: marks-music-solutions\n\nResearch project for finding ethical music streaming alternatives.\nVote with your money.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(gh repo create:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd comprehensive research on all streaming alternatives + build-your-own feasibility study\n\nResearch completed for 7 services ranked by ethics and artist compensation:\n- Qobuz \\(cleanest ethics, 10x Spotify artist pay\\)\n- Tidal \\(artist-first, fan-centered royalties\\)\n- Apple Music \\(progressive leadership, 2x Spotify pay\\)\n- Bandcamp \\(85% to artists, direct support\\)\n- Deezer \\(artist-centric payment model\\)\n- YouTube Music \\(proceed with caution - Google lobbying\\)\n- Amazon Music \\(significant concerns - labor, Bezos/Trump\\)\n\nFeasibility study covers 4 tiers from full competitor \\($58M+\\)\nto artist-direct cooperative platform \\($370K-$975K\\).\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "WebSearch",
+      "Bash(go version:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(go mod tidy:*)",
+      "Bash(go build:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite build)"
+    ]
+  }
+}
