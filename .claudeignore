@@ -1,2 +1,6 @@
 # Media database and album art
 data/
+# Dependencies
+node_modules/
+# Lock files
+package-lock.json
